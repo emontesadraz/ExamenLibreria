@@ -1,4 +1,6 @@
- public class Multiplicacion {
+package com.ExamenLibreria;
+
+public class Multiplicacion {
 
         /**
          * Método que realiza la multiplicación de dos números

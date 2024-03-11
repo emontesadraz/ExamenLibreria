@@ -1,4 +1,6 @@
- public class Division {
+package com.ExamenLibreria;
+
+public class Division {
 
         /**
          * Método que realiza la división de dos números

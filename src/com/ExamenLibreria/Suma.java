@@ -1,4 +1,6 @@
- public class Suma {
+package com.ExamenLibreria;
+
+public class Suma {
 
         /**
          * Método que realiza la suma de dos números

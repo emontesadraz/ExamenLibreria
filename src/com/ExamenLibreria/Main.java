@@ -1,3 +1,8 @@
+package com.ExamenLibreria;
+
+import com.ExamenLibreria.Division;
+import com.ExamenLibreria.Multiplicacion;
+import com.ExamenLibreria.Raices;
 import com.dam2024.libreria.Entrada;
 import com.dam2024.libreria.Salida;
 
@@ -9,11 +14,11 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        final int operacion = Entrada.Seleccion_entrada("Elija la operación a realizar: \n1. Suma\n2. Resta\n3. Multiplicación\n4. División\n", 1);
+        final int operacion = Entrada.Seleccion_entrada("Elija la operación a realizar: \n1. com.ExamenLibreria.Suma\n2. com.ExamenLibreria.Resta\n3. Multiplicación\n4. División\n5. Raiz", 1);
         int a;
         int b;
 
-        /*Menú de opciones para el usuario*/
+        //Menú de opciones para el usuario
         switch (operacion) {
             case 1:
                 Suma suma = new Suma();
@@ -47,6 +52,12 @@ public class Main {
                 Entrada.datos = resultado;
                 Salida.Seleccion_salida(2);
                 break;
+            case 5:
+                Raices raices = new Raices();
+                a = Entrada.Seleccion_entrada("Indique radicando: ",1);
+                b = Entrada.Seleccion_entrada("Indique el indice: ",1);
+                resultado = (int) raices.raiz(a,b);
+                Salida.Seleccion_salida(2);
             default:
                 System.out.println("Opción no válida");
                 break;
