@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class RestaTest {
     @Test
     public void restaOfPositiveNumbersReturnsCorrectResult() {
-        assertEquals(-1, Resta.restar(2,3));
+        assertEquals(1, Resta.restar(3,2));
     }
 
     @Test
