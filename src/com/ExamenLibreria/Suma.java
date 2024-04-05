@@ -8,7 +8,7 @@ public class Suma {
          * @param b Segundo número
          * @return La suma de los dos números
          */
-        public int sumar (int a, int b) {
+        public static int sumar(int a, int b) {
             return a + b;
         }
 

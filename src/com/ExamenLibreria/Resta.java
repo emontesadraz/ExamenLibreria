@@ -8,7 +8,7 @@ public class Resta {
          * @param b Segundo número
          * @return La resta de los dos números
          */
-        public int restar(int a, int b) {
+        public static int restar(int a, int b) {
             return a - b;
         }
     }

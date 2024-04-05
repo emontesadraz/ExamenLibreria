@@ -8,7 +8,7 @@ public class Division {
          * @param b Segundo número
          * @return La división de los dos números
          */
-        public int dividir(int a, int b) {
+        public static int dividir(int a, int b) {
             return a / b;
         }
     }

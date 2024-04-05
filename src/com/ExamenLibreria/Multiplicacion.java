@@ -8,7 +8,7 @@ public class Multiplicacion {
          * @param b Segundo número
          * @return La multiplicación de los dos números
          */
-        public int multiplicar(int a, int b) {
+        public static int multiplicar(int a, int b) {
             return a * b;
         }
     }
